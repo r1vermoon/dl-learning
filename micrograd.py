@@ -154,7 +154,7 @@ xs=[
 ys=[1.0,
     -1.0,
     -1.0,
-    1.0]  #想达到的效果
+    1.0]
 
 for k in range(20):
     ypred=[n(x) for x in xs]
