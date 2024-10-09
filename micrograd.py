@@ -161,6 +161,8 @@ for k in range(20):
     loss= sum(
             [(yout-ygt)**2 for yout,ygt in zip(ypred,ys)]
         )
+
+
     # loss=Value(sum([((yout-ygt)**2).data for ygt,yout in zip(ys,ypred)]))
 
     for p in n.parameters():
